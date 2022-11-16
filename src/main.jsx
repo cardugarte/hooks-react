@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom/client'
 // import SimpleForm from './components/useEffect/SimpleForm'
 // import FormWithCustomHook from './components/useEffect/FormWithCustomHook'
 // import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks'
-import { FocusScreen } from './components/useRef/FocusScreen'
+// import { FocusScreen } from './components/useRef/FocusScreen'
+import { Layout } from './components/useLayoutEffect/Layout'
 
 
 import './index.css'
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
     {/* <MultipleCustomHooks /> */}
-    <FocusScreen />
+    {/* <FocusScreen /> */}
+    <Layout />
   </React.StrictMode>
 )
