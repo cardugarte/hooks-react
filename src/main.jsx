@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom/client'
 // import { FocusScreen } from './components/useRef/FocusScreen'
 // import { Layout } from './components/useLayoutEffect/Layout'
 // import { Memorize } from './components/memos/Memorize'
-import { MemoHook } from './components/memos/MemoHook'
+// import { MemoHook } from './components/memos/MemoHook'
+import { CallbackHook } from './components/memos/CallbackHook'
 
 import './index.css'
 
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <FocusScreen /> */}
     {/* <Layout /> */}
     {/* <Memorize /> */}
-    <MemoHook />
+    {/* <MemoHook /> */}
+    <CallbackHook />
   </React.StrictMode>
 )
